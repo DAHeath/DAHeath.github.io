@@ -14,7 +14,7 @@
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         {% include nav_link.html title="Our Company"    url="our_company.html" %}
         {% include nav_link.html title="Our Philosophy" url="our_philosophy.html" %}
         {% include nav_link.html title="Our People"     url="our_people.html" %}
@@ -26,3 +26,6 @@
   </div>
 </header>
 <div style="height: 50px;"></div> <!-- Prevents fixed navbar overlap -->
+<div class="bs-docs-header">
+  <h1> {{ page.title }}</h1>
+</div>

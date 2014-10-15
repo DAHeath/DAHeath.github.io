@@ -1,9 +1,32 @@
 <div class="bs-docs-sidebar
             hidden-print
-            hidden-xs
-            affix-top" role="complementary>
-  <ul class="nav bs-docs-sidenav">
-    <li><a href="#">Hello</a></li>
-    <li><a href="#">Blah</a></li>
+            hidden-xs">
+  <ul class="nav bs-docs-sidenav affix scroll-navbar"
+            data-spy="affix" 
+            data-offset-top="190"
+            data-offset-bottom="200"
+            style="top: 90px;">
+
+    {% for p1 in site.pages %}
+      {% if p1.type == page.presents_type %}
+        <li>
+          <a href="#{{ p1.title }}">
+            {{ p1.title }}
+          </a>
+          <ul class="nav">
+            {% for p2 in site.pages %}
+              {% if p2.type == p1.presents_type %}
+                <li>
+                  <a href="#{{ p2.title }}">
+                    {{ p2.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+
+      {% endif %}
+    {% endfor %}
   </ul>
 </div>
