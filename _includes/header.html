@@ -1,29 +1,28 @@
-<header class="site-header">
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" 
-                class="navbar-toggle collapsed" 
-                data-toggle="collapse" 
-                data-target="#bs-example-navbar-collapse-1">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-          {{ site.title }}
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a class="page-link" href="our_company.html">    Our Company    </a></li>
-          <li><a class="page-link" href="our_philosophy.html"> Our Philosophy </a></li>
-          <li><a class="page-link" href="our_people.html">     Our People     </a></li>
-          <li><a class="page-link" href="our_projects.html">   Our Projects   </a></li>
-          <li><a class="page-link" href="news.html">           News           </a></li>
-          <li><a class="page-link" href="contact.html">        Contact        </a></li>
-        </ul>
-      </div>
+<header class="navbar bs-docs-nav navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" 
+              class="navbar-toggle collapsed" 
+              data-toggle="collapse" 
+              data-target="#bs-example-navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+        H&L
+      </a>
     </div>
-  </nav>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {% include nav_link.html title="Our Company"    url="our_company.html" %}
+        {% include nav_link.html title="Our Philosophy" url="our_philosophy.html" %}
+        {% include nav_link.html title="Our People"     url="our_people.html" %}
+        {% include nav_link.html title="Our Projects"   url="our_projects.html" %}
+        {% include nav_link.html title="News"           url="news.html" %}
+        {% include nav_link.html title="Contact"        url="contact.html" %}
+      </ul>
+    </div>
+  </div>
 </header>
+<div style="height: 50px;"></div> <!-- Prevents fixed navbar overlap -->

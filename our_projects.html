@@ -2,3 +2,14 @@
 layout: default
 title: Our Projects
 ---
+{% for page in site.pages %}
+  {% if page.type == "project_category" %}
+
+    {% include section_header.html header=page.title filler=page.subtitle %}
+
+    <div class="container bs-docs-container">
+      {{ page.content }}
+    </div>
+
+  {% endif %}
+{% endfor %}
