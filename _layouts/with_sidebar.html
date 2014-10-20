@@ -9,7 +9,21 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="col-sm-9" role="main">
-          {{ content }}
+
+
+          {% assign sorted_pages = (site.pages | sort: 'order') %}
+          {% for p in sorted_pages %}
+            {% if p.type == page.presents_type %}
+            <section id="{{ p.title | downcase | replace: ' ','-'}}">
+              {% include section_header.html header=p.title filler=p.subtitle %}
+              <div>
+                {{ p.content }}
+              </div>
+            </section>
+            {% endif %}
+          {% endfor %}
+
+
         </div>
         <div class="col-sm-3">
           {% include sidebar.html %}
