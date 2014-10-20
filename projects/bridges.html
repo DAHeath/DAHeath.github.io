@@ -1,7 +1,7 @@
 ---
 title: "Bridges"
-subtitle: We've had a lot of experience working with Bridges. Let us show you some of our work!
-type: "project_category" 
+subtitle: "We've had a lot of experience working with Bridges. Let us show you some of our work!"
+type: "project_category"
 presents_type: "bridge"
 ---
 
@@ -11,7 +11,9 @@ presents_type: "bridge"
   {% if page.type == "bridge" %}
 
     <h1>{{ page.title }}</h1>
-    {{ page.content }}
+    <div>
+      {{ page.content }}
+    </div>
 
   {% endif %}
 {% endfor %}

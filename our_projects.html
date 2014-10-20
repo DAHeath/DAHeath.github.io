@@ -3,12 +3,13 @@ layout: with_sidebar
 title: Our Projects
 presents_type: "project_category"
 ---
-{% for page in site.pages %}
-  {% if page.type == "project_category" %}
+{% for p in site.pages %}
+  {% if p.type == "project_category" %}
 
-    {% include section_header.html header=page.title filler=page.subtitle %}
-
-      {{ page.content }}
+    {% include section_header.html header=p.title filler=p.subtitle %}
+    <div>
+      {{ p.content }}
+    </div>
 
   {% endif %}
 {% endfor %}
