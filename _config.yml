@@ -9,5 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://heath-lineback.com" # the base hostname & protocol for your site
 tagline: Bringing Dedication, Innovation, Knowledge & Expertise to your Engineering Projects.
 
+
 # Build settings
-markdown: kramdown
+markdown: kramdown spaceToDash

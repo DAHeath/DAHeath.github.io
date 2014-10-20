@@ -6,10 +6,12 @@ presents_type: "project_category"
 {% for p in site.pages %}
   {% if p.type == "project_category" %}
 
+  <section id="{{ p.title | downcase | replace: ' ','-'}}">
     {% include section_header.html header=p.title filler=p.subtitle %}
     <div>
       {{ p.content }}
     </div>
+  </section>
 
   {% endif %}
 {% endfor %}

@@ -5,3 +5,7 @@
 .body {
   height: 100%;
 }
+
+.bs-docs-sidebar .nav>.active>ul {
+  display: block;
+}
