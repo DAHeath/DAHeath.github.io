@@ -7,15 +7,4 @@ presents_type: "bridge"
 
 {% include lorem.html %}
 
-{% for p in site.pages %}
-  {% if p.type == "bridge" %}
-
-    <div id="{{ p.title | downcase | replace: ' ','-' }}">
-      <h1>{{ p.title }}</h1>
-      <div>
-        {{ p.content }}
-      </div>
-    </div>
-
-  {% endif %}
-{% endfor %}
+{% include type_collection.html %}

@@ -1,0 +1,15 @@
+
+{% for p in site.pages %}
+  {% if p.type == page.presents_type %}
+
+    <div id="{{ p.title | downcase | replace: ' ','-' }}">
+      <br>
+      <h1 class="page-header">{{ p.title }}</h1>
+
+      <div>
+        {{ p.content }}
+      </div>
+    </div>
+
+  {% endif %}
+{% endfor %}
