@@ -4,11 +4,11 @@
   {% include head.html %}
 
   <body data-spy="scroll" data-target=".scroll-navbar">
-    {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        <div class="col-sm-9 right-bordered">
+      {% include header.html %}
+      <div class="wrapper limited-width">
+        <div class="col-sm-9">
 
 
           {% assign sorted_pages = (site.pages | sort: 'order') %}
@@ -16,7 +16,7 @@
             {% if p.type == page.presents_type %}
             <section id="{{ p.title | downcase | replace: ' ','-'}}">
               {% include section_header.html header=p.title filler=p.subtitle %}
-              <div>
+              <div class="padded">
                 {{ p.content }}
               </div>
             </section>
@@ -31,9 +31,8 @@
           {% include sidebar.html %}
         </div>
       </div>
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
 
   </body>
 

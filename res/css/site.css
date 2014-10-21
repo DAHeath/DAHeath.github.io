@@ -1,3 +1,64 @@
+body {
+  background-color: #eee;
+}
+
+.limited-width {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Make the sidebar the same size on affix change */
+.bs-docs-sidebar {
+  width: 160px;
+}
+.bs-docs-sidenav {
+  width: 160px;
+}
+
+body,html {
+  height: 100%
+}
+.bs-page-content {
+  height: auto;
+  min-height: 100%;
+}
+.bs-docs-footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 115px;
+  margin-top: 115px;
+  background-color: #fff;
+  border-top-color: #ccc;
+}
+
+section {
+  background-color: #fff;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+  background-color: #6f5499;
+  background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
+  display: block;
+  padding: 25px;
+}
+
+.padded {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+.jumbotron p {
+  color: #fff;
+}
+
 .bs-docs-sidenav.affix-top {
   width: auto;
 }
