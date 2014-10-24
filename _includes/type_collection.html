@@ -2,7 +2,8 @@
   {% include section_header.html header=page.title filler=page.subtitle %}
   <div class="padded">
 
-    {% for p in site.pages %}
+    {% assign sorted_pages = (site.pages | sort: 'order') %}
+    {% for p in sorted_pages %}
       {% if p.type == page.presents_type %}
         <h1 id="{{ p.title | downcase | replace: ' ','-' | replace: '/','-' }}">
           {{ p.title }}

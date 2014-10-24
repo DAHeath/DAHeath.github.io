@@ -10,7 +10,8 @@
       <div class="wrapper limited-width">
         <div class="col-sm-9">
 
-          {% for p in (site.pages | sort: 'order') %}
+          {% assign sorted_pages = (site.pages | sort: 'order') %}
+          {% for p in sorted_pages %}
             {% if p.type == page.presents_type %}
               {{ p.content }}
             {% endif %}
