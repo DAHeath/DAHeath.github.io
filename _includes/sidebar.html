@@ -12,7 +12,7 @@
     {% for p1 in sorted_pages %}
       {% if p1.type == page.presents_type %}
         <li>
-          <a href="#{{ p1.title | downcase | replace: ' ','-' }}">
+          <a href="#{{ p1.title | downcase | replace: ' ','-' | replace: '/','-' }}">
             {{ p1.title }}
           </a>
           <ul class="nav scroll-navbar">
@@ -21,7 +21,7 @@
             {% for p2 in sorted_pages %}
               {% if p2.type == p1.presents_type %}
                 <li>
-                  <a href="#{{ p2.title | downcase | replace: ' ','-' }}">
+                  <a href="#{{ p2.title | downcase | replace: ' ','-' | replace: '/','-' }}">
                     {{ p2.title }}
                   </a>
                 </li>

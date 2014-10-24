@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  /* background=eeeeeeff&noise=ffffff&density=10&opacity=10 */
 }
 
 .limited-width {
@@ -39,17 +40,25 @@ section {
   border-style: solid;
   padding-bottom: 30px;
 }
+.col-sm-9 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .jumbotron {
   background-color: #6f5499;
   background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
   display: block;
-  padding: 25px;
+  padding: 15px;
 }
 
 .padded {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bs-docs-header {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .jumbotron h1 {
@@ -79,7 +88,7 @@ section {
 
 .fitted-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   display: block;
