@@ -18,8 +18,8 @@ email: heath.davidanthony@gmail.com
 description:
   An exploration of program safety.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://daheath.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
 github_username: daheath
 
   # Build settings
