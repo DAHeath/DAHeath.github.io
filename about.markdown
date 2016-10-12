@@ -3,9 +3,6 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-
-Blah blah blah blah
-
 Hi! My name is David Heath. I'm a Computer Science Ph.D. student at Georgia Tech.
 My advisor is [Bill Harris](http://www.cc.gatech.edu/~wharris/).
 

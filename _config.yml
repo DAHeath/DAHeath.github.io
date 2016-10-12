@@ -19,7 +19,7 @@ description:
   An exploration of program safety.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://daheath.github.io"
 github_username: daheath
 
   # Build settings
