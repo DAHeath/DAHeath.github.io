@@ -1,4 +1,4 @@
-title: Heathblog
+title: Hack the Planet!
 email: heath.davidanthony@gmail.com
 description: An exploration of program safety.
 
@@ -6,9 +6,9 @@ baseurl: ""
 url: ""
 github_username: daheath
 
+theme: minima
 github: [metadata]
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
   - minima
