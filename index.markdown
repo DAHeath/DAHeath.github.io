@@ -9,8 +9,14 @@ My interests include:
   + Cryptography and Secure Multiparty Computation (MPC)
   + Programming Languages and Compiler Design
 
+I work on the 9th floor of the CODA building [(756 W Peachtree St NW, Atlanta, GA 30308)](https://goo.gl/maps/CqeEd1wMpz6pV3wX7)
+
 Research:
+  <details>
+  <summary>
   [Efficiently Computing with Private Data](https://smartech.gatech.edu/bitstream/handle/1853/61833/heath_videostream.html?sequence=3&isAllowed=y), presented as part of Georgia Tech's [Cybersecurity Lecture Series](https://cyber.gatech.edu/cyber-lecture).
+  </summary>
+
   > Today, individual users and organizations often wish to contribute their private data to compute functions of interest.
   > Unfortunately, when data is deemed too valuable or is legally protected, such computation cannot be performed.
   >
@@ -28,7 +34,6 @@ Research:
   >
   > The talk will be kept at a high level, and no cryptographic background is required.
   > The presented work is in collaboration with my advisor Vlad Kolesnikov.
-
-I work on the 9th floor of the CODA building [(756 W Peachtree St NW, Atlanta, GA 30308)](https://goo.gl/maps/CqeEd1wMpz6pV3wX7)
+  </details>
 
 ![Me!]({{ site.url }}/assets/me.jpg)

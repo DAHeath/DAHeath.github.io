@@ -1,7 +1,7 @@
 title: David Heath
 author: David Heath
 email: heath.davidanthony@gmail.com
-description: PhD Research Student in MPC and Programming Languages
+description: PhD Student in MPC and Programming Languages
 
 baseurl: ""
 url: ""
@@ -10,6 +10,8 @@ github_username: daheath
 theme: minima
 github: [metadata]
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 gems:
   - jekyll-feed
   - minima

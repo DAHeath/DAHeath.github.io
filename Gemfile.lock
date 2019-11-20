@@ -244,6 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-commonmark-ghpages
   minima
 
 RUBY VERSION
