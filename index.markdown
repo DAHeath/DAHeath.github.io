@@ -1,3 +1,24 @@
+<style>
+body {
+  font-family: helvetica;
+  line-height: 1.5em;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
 # David Heath
 
 You can reach me via email at <heath.davidanthony@gatech.edu>.
@@ -75,7 +96,7 @@ ASIACRYPT 2021.
 
 * David Heath, Vladimir Kolesnikov, and Rafail Ostrovskey. Practical garbled RAM.
 * Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. EZEE: Epoch parallel zero knowledge for ANSI C.
-* David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. λ-Symphony: A concise language model for MPC.
+* David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. Lambda\-Symphony: A concise language model for MPC.
 * Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. GCWise: Garbled Circuits With Sublinear Evaluator.
 
 ## Talks
