@@ -7,7 +7,7 @@ baseurl: ""
 url: ""
 github_username: daheath
 
-theme: minima
+theme: jekyll-theme-minimal
 github: [metadata]
 markdown: kramdown
 kramdown:
