@@ -26,7 +26,7 @@ You can reach me via email at <heath.davidanthony@gatech.edu>.
 ## About Me
 
 Hi!
-I\'m David Heath, a Computer Science PhD candidate studying Cryptography at
+I\'m David Heath, a Computer Science PhD candidate studying cryptography at
 Georgia Tech.
 My research focuses on [Secure Multiparty Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation).
 So far, my research \- done in collaboration with my advisor [Vlad
@@ -60,7 +60,7 @@ improved two important areas of cryptography:
     that augments GC with a
     sublinear cost random access memory.
     Unforunately, existing GRAM techniques are too expensive for practice.
-    My recent research has uncovered new GC primitives that make pratical GRAM attainable.
+    My recent research has uncovered new GC primitives that make practical GRAM attainable.
     My work on GRAM is currently in submission.
 
 
