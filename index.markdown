@@ -94,7 +94,7 @@ ASIACRYPT 2021.
 
 ## Unpublished Manuscripts
 
-* David Heath, Vladimir Kolesnikov, and Rafail Ostrovskey. Practical garbled RAM.
+* David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. Practical garbled RAM.
 * Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. EZEE: Epoch parallel zero knowledge for ANSI C.
 * David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. Lambda\-Symphony: A concise language model for MPC.
 * Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. GCWise: Garbled Circuits With Sublinear Evaluator.
