@@ -104,6 +104,10 @@ ASIACRYPT 2021.
 
 ## Talks
 
+* [Practical Garbled RAM](https://www.youtube.com/watch?v=Rg91tBQjkyk). CMU Reading Group, December 2021.
+* Practical Garbled RAM. UMD Reading Group, December 2021.
+* Practical Garbled RAM. Stanford Security Seminar, November 2021.
+* Logstack: Stacked garbling with O(b log b) computation. TCC 2021 Special in-person Workshop, November 2021.
 * [Logstack: Stacked garbling with O(b log b) computation](https://crypto.stanford.edu/seclab/sem-20-21/heath.html). Stanford Security Seminar, May 2021.
 * [Zero-knowledge for everything and everyone](https://scp.cc.gatech.edu/2021/02/05/zero-knowledge-for-everything-and-everyone/). Georgia Tech Cybersecurity Lecture Series, February 2021.
 * Stacked garbling: Garbled circuit proportional to longest execution path. Stanford Security Seminar, September 2020
