@@ -69,6 +69,12 @@ To learn more about my research, you can peruse my work below or have a look at 
 
 ## Conference Publications
 
+### 2022
+
+* David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. [Practical garbled RAM](https://eprint.iacr.org/2021/1519). EUROCRYPT 2022.
+* Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. GCWise: Garbled Circuits With Sublinear Evaluator. EUROCRYPT 2022.
+* Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. EZEE: Epoch parallel zero knowledge for ANSI C. EuroS&P 2022.
+
 ### 2021
 
 * David Heath and Vladimir Kolesnikov. One hot garbling. CCS 2021.
@@ -94,10 +100,7 @@ ASIACRYPT 2021.
 
 ## Unpublished Manuscripts
 
-* David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. Practical garbled RAM.
-* Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. EZEE: Epoch parallel zero knowledge for ANSI C.
 * David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. Lambda\-Symphony: A concise language model for MPC.
-* Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. GCWise: Garbled Circuits With Sublinear Evaluator.
 
 ## Talks
 
