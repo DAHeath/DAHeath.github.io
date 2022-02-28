@@ -104,6 +104,8 @@ ASIACRYPT 2021.
 
 ## Talks
 
+* Invited Speaker at TPMPC, June 2022.
+* EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River Crypto Day, March 2022.
 * [Practical Garbled RAM](https://www.youtube.com/watch?v=Rg91tBQjkyk). CMU Reading Group, December 2021.
 * Practical Garbled RAM. UMD Reading Group, December 2021.
 * Practical Garbled RAM. Stanford Security Seminar, November 2021.
