@@ -50,7 +50,7 @@ improved two important areas of cryptography:
     communication consumption such that it is proportional only to the single
     longest *execution path*, not to the entire function.
     We have also found similar improvements to other MPC techniques, namely to the [classic GMW protocol](https://eprint.iacr.org/2020/1175) and to [Beaver-Triple-based multiplication](https://eprint.iacr.org/2021/604).
-  + *One-Hot Garbling* (appearing at CCS 2021) is a new GC technique that
+  + [*One-Hot Garbling*](https://dl.acm.org/doi/abs/10.1145/3460120.3484764) is a new GC technique that
     improves the efficiency of a variety of low level functions.
     Traditionally, GCs operate strictly over AND and XOR gates.
     One-hot garbling shows that certain vectorized operations can be computed
@@ -60,8 +60,7 @@ improved two important areas of cryptography:
     that augments GC with a
     sublinear cost random access memory.
     Unforunately, existing GRAM techniques are too expensive for practice.
-    My recent research has uncovered new GC primitives that make practical GRAM attainable.
-    My work on GRAM is currently in submission.
+    My [recent research](https://eprint.iacr.org/2021/1519) has uncovered new GC primitives that make practical GRAM attainable.
 
 
 To learn more about my research, you can peruse my work below or have a look at [my CV](./cv.pdf).
