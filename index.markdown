@@ -26,16 +26,13 @@ You can reach me via email at <heath.davidanthony@gatech.edu>.
 ## About Me
 
 Hi!
-I\'m David Heath, a Computer Science PhD candidate studying cryptography at
-Georgia Tech.
+I\'m David Heath, a cryptographer and recent PhD recipient from Georgia Tech.
+In Fall of 2022, I will join UIUC as an assistant professor.
 My research focuses on [Secure Multiparty Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation).
-So far, my research \- done in collaboration with my advisor [Vlad
+My research \- done in collaboration with my thesis advisor [Vlad
 Kolesnikov](https://www.cc.gatech.edu/~vlad/) and others \- has
 improved two important areas of cryptography:
 
-* *Practical Zero Knowledge*. Together with my collaborators, I have made
-  important advances in the field of [Zero Knowledge (ZK)](https://en.wikipedia.org/wiki/Zero-knowledge_proof) Proofs.  In
-  particular, my research shows it is possible to run ZK proofs of very large proofs [quite efficiently](https://www.computer.org/csdl/proceedings-article/sp/2021/893400b538/1t0x9pFe8tq).
 * *Two Party Computation*.
   [Garbled Circuits (GC)](https://en.wikipedia.org/wiki/Garbled_circuit) is a
   foundational technique in MPC that allows two parties to securely compute
@@ -61,17 +58,23 @@ improved two important areas of cryptography:
     sublinear cost random access memory.
     Unforunately, existing GRAM techniques are too expensive for practice.
     My [recent research](https://eprint.iacr.org/2021/1519) has uncovered new GC primitives that make practical GRAM attainable.
+* *Practical Zero Knowledge*. Together with my collaborators, I have made
+  important advances in the field of [Zero Knowledge (ZK)](https://en.wikipedia.org/wiki/Zero-knowledge_proof) Proofs.  In
+  particular, my research shows it is possible to run ZK proofs of very large proofs [quite efficiently](https://www.computer.org/csdl/proceedings-article/sp/2021/893400b538/1t0x9pFe8tq).
 
 
 To learn more about my research, you can peruse my work below or have a look at [my CV](./cv.pdf).
 
+See my [PhD Dissertation](./dissertation.pdf).
 
 ## Conference Publications
 
 ### 2022
 
-* David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. [Practical garbled RAM](https://eprint.iacr.org/2021/1519). EUROCRYPT 2022.
+* David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. [Practical garbled RAM](https://eprint.iacr.org/2021/1519). EUROCRYPT 2022 *Best Paper Award*.
+[Conference Talk](https://www.youtube.com/watch?v=kgeHG-jIKCM&list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&index=1)
 * Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. GCWise: Garbled Circuits With Sublinear Evaluator. EUROCRYPT 2022.
+[Conference Talk](https://www.youtube.com/watch?v=2aMeluc44Fc&list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&index=2)
 * Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. EZEE: Epoch parallel zero knowledge for ANSI C. EuroS&P 2022.
 
 ### 2021
@@ -99,11 +102,12 @@ ASIACRYPT 2021.
 
 ## Unpublished Manuscripts
 
+* David Heath, Vladimir Kolesnikov, Stanislav Peceny, and Yibin Yang. Towards Generic MPC Compilers via Variable Instruction Set Architectures (VISAs).
 * David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. Lambda\-Symphony: A concise language model for MPC.
 
 ## Talks
 
-* Invited Speaker at TPMPC, June 2022.
+* New Directions in Garbled Circuits. Invited Speaker at TPMPC, June 2022.
 * EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River Crypto Day, March 2022.
 * [Practical Garbled RAM](https://www.youtube.com/watch?v=Rg91tBQjkyk). CMU Reading Group, December 2021.
 * Practical Garbled RAM. UMD Reading Group, December 2021.
