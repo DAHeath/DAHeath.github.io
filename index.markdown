@@ -21,17 +21,16 @@ a:active {
 </style>
 # David Heath
 
-You can reach me via email at <heath.davidanthony@gatech.edu>.
+You can reach me via email at <daheath@illinois.edu>.
 
 ## About Me
 
 Hi!
-I\'m David Heath, a cryptographer and recent PhD recipient from Georgia Tech.
-In Fall of 2022, I will join UIUC as an assistant professor.
-My research focuses on [Secure Multiparty Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation).
-My research \- done in collaboration with my thesis advisor [Vlad
-Kolesnikov](https://www.cc.gatech.edu/~vlad/) and others \- has
-improved two important areas of cryptography:
+I\'m David Heath, a cryptographer and an assistant professor at the University
+of Illinois Urbana\-Champaign.
+My research focuses on [Secure Multiparty Computation
+(MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation), and
+my existing works target two specific subareas:
 
 * *Two Party Computation*.
   [Garbled Circuits (GC)](https://en.wikipedia.org/wiki/Garbled_circuit) is a
@@ -110,6 +109,7 @@ ASIACRYPT 2021. [Conference Talk](https://www.youtube.com/watch?v=oJ_30plLyZo).
 * New Directions in Garbled Circuits. Invited Speaker at TPMPC, June 2022.
 * EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River Crypto Day, March 2022.
 * [Practical Garbled RAM](https://www.youtube.com/watch?v=Rg91tBQjkyk). CMU Reading Group, December 2021.
+* Practical Garbled RAM. Berkeley Reading Group, December 2021.
 * Practical Garbled RAM. UMD Reading Group, December 2021.
 * Practical Garbled RAM. Stanford Security Seminar, November 2021.
 * Logstack: Stacked Garbling with O(b log b) Computation. TCC 2021 Special in-person Workshop, November 2021.

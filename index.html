@@ -20,59 +20,172 @@ a:active {
 }
 </style>
 <h1 id="david-heath">David Heath</h1>
-<p>You can reach me via email at <a href="mailto:heath.davidanthony@gatech.edu" class="email">heath.davidanthony@gatech.edu</a>.</p>
+<p>You can reach me via email at <a href="mailto:daheath@illinois.edu"
+class="email">daheath@illinois.edu</a>.</p>
 <h2 id="about-me">About Me</h2>
-<p>Hi! I'm David Heath, a cryptographer and recent PhD recipient from Georgia Tech. In Fall of 2022, I will join UIUC as an assistant professor. My research focuses on <a href="https://en.wikipedia.org/wiki/Secure_multi-party_computation">Secure Multiparty Computation (MPC)</a>. My research - done in collaboration with my thesis advisor <a href="https://www.cc.gatech.edu/~vlad/">Vlad Kolesnikov</a> and others - has improved two important areas of cryptography:</p>
+<p>Hi! I'm David Heath, a cryptographer and an assistant professor at
+the University of Illinois Urbana-Champaign. My research focuses on <a
+href="https://en.wikipedia.org/wiki/Secure_multi-party_computation">Secure
+Multiparty Computation (MPC)</a>, and my existing works target two
+specific subareas:</p>
 <ul>
-<li><p><em>Two Party Computation</em>. <a href="https://en.wikipedia.org/wiki/Garbled_circuit">Garbled Circuits (GC)</a> is a foundational technique in MPC that allows two parties to securely compute arbitrary functions of their inputs with revealing nothing but the output. I have had the privilege of finding several new GC techniques:</p>
+<li><p><em>Two Party Computation</em>. <a
+href="https://en.wikipedia.org/wiki/Garbled_circuit">Garbled Circuits
+(GC)</a> is a foundational technique in MPC that allows two parties to
+securely compute arbitrary functions of their inputs with revealing
+nothing but the output. I have had the privilege of finding several new
+GC techniques:</p>
 <ul>
-<li><a href="https://eprint.iacr.org/2020/973"><em>Stacked Garbling</em></a> is a new GC technique that improves the handling of conditional branching. It was typically assumed that to securely compute a GC over a function, a string of cryptographic material proportional to the function description was needed. Stacked Garbling challenges this assumption, showing that we can reduce communication consumption such that it is proportional only to the single longest <em>execution path</em>, not to the entire function. We have also found similar improvements to other MPC techniques, namely to the <a href="https://eprint.iacr.org/2020/1175">classic GMW protocol</a> and to <a href="https://eprint.iacr.org/2021/604">Beaver-Triple-based multiplication</a>.</li>
-<li><a href="https://dl.acm.org/doi/abs/10.1145/3460120.3484764"><em>One-Hot Garbling</em></a> is a new GC technique that improves the efficiency of a variety of low level functions. Traditionally, GCs operate strictly over AND and XOR gates. One-hot garbling shows that certain vectorized operations can be computed more efficiently, and we need not compile all operations down to AND and XOR gates.</li>
-<li><em>Garbled RAM (GRAM)</em> is a <a href="https://eprint.iacr.org/2012/601.pdf">powerful technique</a> that augments GC with a sublinear cost random access memory. Unforunately, existing GRAM techniques are too expensive for practice. My <a href="https://eprint.iacr.org/2021/1519">recent research</a> has uncovered new GC primitives that make practical GRAM attainable.</li>
+<li><a href="https://eprint.iacr.org/2020/973"><em>Stacked
+Garbling</em></a> is a new GC technique that improves the handling of
+conditional branching. It was typically assumed that to securely compute
+a GC over a function, a string of cryptographic material proportional to
+the function description was needed. Stacked Garbling challenges this
+assumption, showing that we can reduce communication consumption such
+that it is proportional only to the single longest <em>execution
+path</em>, not to the entire function. We have also found similar
+improvements to other MPC techniques, namely to the <a
+href="https://eprint.iacr.org/2020/1175">classic GMW protocol</a> and to
+<a href="https://eprint.iacr.org/2021/604">Beaver-Triple-based
+multiplication</a>.</li>
+<li><a
+href="https://dl.acm.org/doi/abs/10.1145/3460120.3484764"><em>One-Hot
+Garbling</em></a> is a new GC technique that improves the efficiency of
+a variety of low level functions. Traditionally, GCs operate strictly
+over AND and XOR gates. One-hot garbling shows that certain vectorized
+operations can be computed more efficiently, and we need not compile all
+operations down to AND and XOR gates.</li>
+<li><em>Garbled RAM (GRAM)</em> is a <a
+href="https://eprint.iacr.org/2012/601.pdf">powerful technique</a> that
+augments GC with a sublinear cost random access memory. Unforunately,
+existing GRAM techniques are too expensive for practice. My <a
+href="https://eprint.iacr.org/2021/1519">recent research</a> has
+uncovered new GC primitives that make practical GRAM attainable.</li>
 </ul></li>
-<li><p><em>Practical Zero Knowledge</em>. Together with my collaborators, I have made important advances in the field of <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero Knowledge (ZK)</a> Proofs. In particular, my research shows it is possible to run ZK proofs of very large proofs <a href="https://www.computer.org/csdl/proceedings-article/sp/2021/893400b538/1t0x9pFe8tq">quite efficiently</a>.</p></li>
+<li><p><em>Practical Zero Knowledge</em>. Together with my
+collaborators, I have made important advances in the field of <a
+href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero Knowledge
+(ZK)</a> Proofs. In particular, my research shows it is possible to run
+ZK proofs of very large proofs <a
+href="https://www.computer.org/csdl/proceedings-article/sp/2021/893400b538/1t0x9pFe8tq">quite
+efficiently</a>.</p></li>
 </ul>
-<p>To learn more about my research, you can peruse my work below or have a look at <a href="./cv.pdf">my CV</a>.</p>
+<p>To learn more about my research, you can peruse my work below or have
+a look at <a href="./cv.pdf">my CV</a>.</p>
 <p>See my <a href="./dissertation.pdf">PhD Dissertation</a>.</p>
 <h2 id="conference-publications">Conference Publications</h2>
 <h3 id="section">2022</h3>
 <ul>
-<li>David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. <a href="https://eprint.iacr.org/2021/1519">Practical Garbled RAM</a>. EUROCRYPT 2022 <em>Best Paper Award</em>. <a href="https://www.youtube.com/watch?v=kgeHG-jIKCM&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=1">Conference Talk</a>.</li>
-<li>Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail Ostrovsky, and Akash Shah. <a href="https://eprint.iacr.org/2022/797">GCWise: Garbled Circuits With Sublinear Evaluator</a>. EUROCRYPT 2022. <a href="https://www.youtube.com/watch?v=2aMeluc44Fc&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=2">Conference Talk</a>.</li>
-<li>Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. <a href="https://eprint.iacr.org/2022/811">EZEE: Epoch Parallel Zero Knowledge for ANSI C</a>. EuroS&amp;P 2022.</li>
+<li>David Heath, Vladimir Kolesnikov, and Rafail Ostrovsky. <a
+href="https://eprint.iacr.org/2021/1519">Practical Garbled RAM</a>.
+EUROCRYPT 2022 <em>Best Paper Award</em>. <a
+href="https://www.youtube.com/watch?v=kgeHG-jIKCM&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=1">Conference
+Talk</a>.</li>
+<li>Abida Haque, David Heath, Vladimir Kolesnikov, Steve Lu, Rafail
+Ostrovsky, and Akash Shah. <a
+href="https://eprint.iacr.org/2022/797">GCWise: Garbled Circuits With
+Sublinear Evaluator</a>. EUROCRYPT 2022. <a
+href="https://www.youtube.com/watch?v=2aMeluc44Fc&amp;list=PLeeS-3Ml-rpo46w2onH4CGzlHZ8uwa1w5&amp;index=2">Conference
+Talk</a>.</li>
+<li>Yibin Yang, David Heath,Vladimir Kolesnikov,and David Devecsery. <a
+href="https://eprint.iacr.org/2022/811">EZEE: Epoch Parallel Zero
+Knowledge for ANSI C</a>. EuroS&amp;P 2022.</li>
 </ul>
 <h3 id="section-1">2021</h3>
 <ul>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2022/798">One Hot Garbling</a>. CCS 2021. <a href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference Talk</a>.</li>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2021/587">PrORAM: Fast O(log n) Private Coin ZK ORAM</a>. ASIACRYPT 2021. <a href="https://www.youtube.com/watch?v=oJ_30plLyZo">Conference Talk</a>.</li>
-<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a href="https://eprint.iacr.org/2021/1590">Garbling, Stacked and Staggered</a>. ASIACRYPT 2021. <a href="https://www.youtube.com/watch?v=QnVanTjaP8o">Conference Talk by Stan Peceny</a>.</li>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2021/531">LogStack: Stacked Garbling with O(b log b) Computation</a>. EUROCRYPT 2021. <a href="https://www.youtube.com/watch?v=fNrZhfNQ_fQ">Conference Talk</a>.</li>
-<li>David Heath, Yibin Yang, David Devecsery, and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2022/810">Zero Knowledge for Everything and Everyone: Fast ZK Processor with Cached ORAM for ANSI C programs</a>. S&amp;P 2021. <a href="https://www.youtube.com/watch?v=JS-xpz1BIL4">Conference Talk</a>.</li>
-<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a href="https://eprint.iacr.org/2021/604">Masked Triples - Amortizing Multiplication Triples Across Conditionals</a>. PKC 2021. <a href="https://www.youtube.com/watch?v=mZm2tMas-yc">Conference Talk by Stan Peceny</a>.</li>
-<li>David Heath, Vladimir Kolesnikov, and Jiahui Lu. <a href="https://eprint.iacr.org/2022/795">Efficient Generic Arithmetic for KKW: Practical Linear MPC-in-the-Head NIZK on Commodity Hardware without Trusted Setup</a>. CSCML 2021.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2022/798">One Hot Garbling</a>. CCS 2021.
+<a
+href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkZjYyMzE3MTMzZjM0Nzk2NTg4Yjk0ZjRjZjg1OTFlNiIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE2ODIwfQ.dVmhuvSBa9_2Yf0raXuo3yVBs7n7U_wrVCiSvIlEUt2HUiGbTTktKdpnm6iXZM8GM2OQaBWn8xZvITAyjCK-HHYTDMeRjRcktdzn9NMsG_hmZOMnaQKzzOniYLPNzkRXBwii0GbBIJhpk4qWhskOjdEpRQlsP5gI64zCFY6LGoPFvTo_3Y6NDGtCq53gdSgS00owsjAp3ca3B84-K6dTCvEaZS2vWzQhN1ghmYgEd1vs_sLz9u6jW9wlY0GUA5UaNiMXvzbf_mFAKXX-r8-Qx5yOqzb4RHhGH9YKWY5NSgal4P657v8PEOvUPs0WXB3gNdscDGwS8tfoCQ94CIZN3A%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2021/587">PrORAM: Fast O(log n) Private
+Coin ZK ORAM</a>. ASIACRYPT 2021. <a
+href="https://www.youtube.com/watch?v=oJ_30plLyZo">Conference
+Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2021/1590">Garbling, Stacked and
+Staggered</a>. ASIACRYPT 2021. <a
+href="https://www.youtube.com/watch?v=QnVanTjaP8o">Conference Talk by
+Stan Peceny</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2021/531">LogStack: Stacked Garbling with
+O(b log b) Computation</a>. EUROCRYPT 2021. <a
+href="https://www.youtube.com/watch?v=fNrZhfNQ_fQ">Conference
+Talk</a>.</li>
+<li>David Heath, Yibin Yang, David Devecsery, and Vladimir Kolesnikov.
+<a href="https://eprint.iacr.org/2022/810">Zero Knowledge for Everything
+and Everyone: Fast ZK Processor with Cached ORAM for ANSI C
+programs</a>. S&amp;P 2021. <a
+href="https://www.youtube.com/watch?v=JS-xpz1BIL4">Conference
+Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2021/604">Masked Triples - Amortizing
+Multiplication Triples Across Conditionals</a>. PKC 2021. <a
+href="https://www.youtube.com/watch?v=mZm2tMas-yc">Conference Talk by
+Stan Peceny</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Jiahui Lu. <a
+href="https://eprint.iacr.org/2022/795">Efficient Generic Arithmetic for
+KKW: Practical Linear MPC-in-the-Head NIZK on Commodity Hardware without
+Trusted Setup</a>. CSCML 2021.</li>
 </ul>
 <h3 id="section-2">2020</h3>
 <ul>
-<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a href="https://eprint.iacr.org/2020/1175">MOTIF: (almost) Free Branching in GMW via Vector-Scalar Multiplication</a>. ASIACRYPT 2020. <a href="https://www.youtube.com/watch?v=nRIQclqfAAQ">Conference Talk by Stan Peceny</a>.</li>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2022/809">A 2.1 KHz Zero-Knowledge Processor with BubbleRAM</a>. CCS 2020. <a href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference Talk</a>.</li>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2020/973">Stacked Garbling - Garbled Circuit Proportional to Longest Execution Path</a>. CRYPTO 2020. <a href="https://www.youtube.com/watch?v=ii13QRHU2Ss">Conference Talk</a>.</li>
-<li>David Heath and Vladimir Kolesnikov. <a href="https://eprint.iacr.org/2020/136">Stacked Garbling for Disjunctive Zero-Knowledge Proofs</a>. EUROCRYPT 2020. <a href="https://www.youtube.com/watch?v=O_kWpyIzqY4">Conference Talk</a>.</li>
+<li>David Heath, Vladimir Kolesnikov, and Stanislav Peceny. <a
+href="https://eprint.iacr.org/2020/1175">MOTIF: (almost) Free Branching
+in GMW via Vector-Scalar Multiplication</a>. ASIACRYPT 2020. <a
+href="https://www.youtube.com/watch?v=nRIQclqfAAQ">Conference Talk by
+Stan Peceny</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2022/809">A 2.1 KHz Zero-Knowledge
+Processor with BubbleRAM</a>. CCS 2020. <a
+href="https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA?poster=https%3A%2F%2Fvideodelivery.net%2FeyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzNzQ0ZjMwZGI4NWE0Mzk3NTUwNTAzMGU1MzEwMTlhZSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjU2MDE4MzExfQ.rF5seqWsMq1tGNdY6o6xYzwqYkhumD4q0n3OFUfVJAZqjieycX7E15adVEZzJq3mtTdLQrM2x65xYmlXzJi5gsxAPemL9jyNb5o8FhX_pk2ijDWXN_57oQjKtk1HB5-gGfOr5ZcyS1LL-ptc1NPje7Df1V9ZHPXD_OqwrJlAnwUp36jR55mrojV6YrVoCsncHlI5hfjmqc7JLwk-eFjUT_GhENldxFjCOStsNe8VJ6_igvI5iC9L3RmhdDLEGrPviiDysjazvZbeb9U9NZemQHNBZvzldBIH5fekDoj9DhFscmuCvExIkP4Zg283tuaMdVi06L5IEQ-w29zhGOh2FA%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D10.0s">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2020/973">Stacked Garbling - Garbled
+Circuit Proportional to Longest Execution Path</a>. CRYPTO 2020. <a
+href="https://www.youtube.com/watch?v=ii13QRHU2Ss">Conference
+Talk</a>.</li>
+<li>David Heath and Vladimir Kolesnikov. <a
+href="https://eprint.iacr.org/2020/136">Stacked Garbling for Disjunctive
+Zero-Knowledge Proofs</a>. EUROCRYPT 2020. <a
+href="https://www.youtube.com/watch?v=O_kWpyIzqY4">Conference
+Talk</a>.</li>
 </ul>
 <h2 id="unpublished-manuscripts">Unpublished Manuscripts</h2>
 <ul>
-<li>David Heath, Vladimir Kolesnikov, Stanislav Peceny, and Yibin Yang. Towards Generic MPC Compilers via Variable Instruction Set Architectures (VISAs).</li>
-<li>David Darais, David Heath, Ryan Estes, William Harris, and Michael Hicks. Lambda-Symphony: A Concise Language Model for MPC.</li>
+<li>David Heath, Vladimir Kolesnikov, Stanislav Peceny, and Yibin Yang.
+Towards Generic MPC Compilers via Variable Instruction Set Architectures
+(VISAs).</li>
+<li>David Darais, David Heath, Ryan Estes, William Harris, and Michael
+Hicks. Lambda-Symphony: A Concise Language Model for MPC.</li>
 </ul>
 <h2 id="talks">Talks</h2>
 <ul>
-<li>New Directions in Garbled Circuits. Invited Speaker at TPMPC, June 2022.</li>
-<li>EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River Crypto Day, March 2022.</li>
-<li><a href="https://www.youtube.com/watch?v=Rg91tBQjkyk">Practical Garbled RAM</a>. CMU Reading Group, December 2021.</li>
+<li>New Directions in Garbled Circuits. Invited Speaker at TPMPC, June
+2022.</li>
+<li>EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River
+Crypto Day, March 2022.</li>
+<li><a href="https://www.youtube.com/watch?v=Rg91tBQjkyk">Practical
+Garbled RAM</a>. CMU Reading Group, December 2021.</li>
+<li>Practical Garbled RAM. Berkeley Reading Group, December 2021.</li>
 <li>Practical Garbled RAM. UMD Reading Group, December 2021.</li>
-<li>Practical Garbled RAM. Stanford Security Seminar, November 2021.</li>
-<li>Logstack: Stacked Garbling with O(b log b) Computation. TCC 2021 Special in-person Workshop, November 2021.</li>
-<li><a href="https://crypto.stanford.edu/seclab/sem-20-21/heath.html">Logstack: Stacked Garbling with O(b log b) Computation</a>. Stanford Security Seminar, May 2021.</li>
-<li><a href="https://scp.cc.gatech.edu/2021/02/05/zero-knowledge-for-everything-and-everyone/">Zero-knowledge for Everything and Everyone</a>. Georgia Tech Cybersecurity Lecture Series, February 2021.</li>
-<li>Stacked garbling: Garbled circuit proportional to longest execution path. Stanford Security Seminar, September 2020</li>
-<li><a href="https://mediaspace.gatech.edu/media/David+Heath+-+Efficiently+Computing+with+Private+Data/1_8qvvz08r">Efficiently Computing with Private Data</a>. Georgia Tech Cybersecurity Lecture Series, September 2019.</li>
+<li>Practical Garbled RAM. Stanford Security Seminar, November
+2021.</li>
+<li>Logstack: Stacked Garbling with O(b log b) Computation. TCC 2021
+Special in-person Workshop, November 2021.</li>
+<li><a
+href="https://crypto.stanford.edu/seclab/sem-20-21/heath.html">Logstack:
+Stacked Garbling with O(b log b) Computation</a>. Stanford Security
+Seminar, May 2021.</li>
+<li><a
+href="https://scp.cc.gatech.edu/2021/02/05/zero-knowledge-for-everything-and-everyone/">Zero-knowledge
+for Everything and Everyone</a>. Georgia Tech Cybersecurity Lecture
+Series, February 2021.</li>
+<li>Stacked garbling: Garbled circuit proportional to longest execution
+path. Stanford Security Seminar, September 2020</li>
+<li><a
+href="https://mediaspace.gatech.edu/media/David+Heath+-+Efficiently+Computing+with+Private+Data/1_8qvvz08r">Efficiently
+Computing with Private Data</a>. Georgia Tech Cybersecurity Lecture
+Series, September 2019.</li>
 </ul>
