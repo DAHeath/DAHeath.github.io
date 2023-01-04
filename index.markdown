@@ -106,7 +106,8 @@ ASIACRYPT 2021. [Conference Talk](https://www.youtube.com/watch?v=oJ_30plLyZo).
 
 ## Talks
 
-* New Directions in Garbled Circuits. Invited Speaker at TPMPC, June 2022.
+* Stacked Garbling and MPC with Improved Conditional Branching. Invited Speaker at NY Crypto Day, October 2022.
+* [New Directions in Garbled Circuits](https://www.youtube.com/watch?v=jOiTfpiLUkA). Invited Speaker at TPMPC, June 2022.
 * EpiGRAM: Practical Garbled RAM. Invited Speaker at Charles River Crypto Day, March 2022.
 * [Practical Garbled RAM](https://www.youtube.com/watch?v=Rg91tBQjkyk). CMU Reading Group, December 2021.
 * Practical Garbled RAM. Berkeley Reading Group, December 2021.
