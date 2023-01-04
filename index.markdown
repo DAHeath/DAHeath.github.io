@@ -62,7 +62,7 @@ my existing works target two specific subareas:
   particular, my research shows it is possible to run ZK proofs of very large proofs [quite efficiently](https://www.computer.org/csdl/proceedings-article/sp/2021/893400b538/1t0x9pFe8tq).
 
 
-To learn more about my research, you can peruse my work below or have a look at [my CV](./cv/cv.pdf).
+To learn more about my research, you can peruse my work below or have a look at [my CV](./cv.pdf).
 
 See my [PhD Dissertation](./dissertation.pdf).
 
