@@ -1,0 +1,275 @@
+\documentclass[11pt]{article}
+
+\input{structure.tex}
+
+\hypersetup{
+  pdftitle={David Heath - Curriculum vitae},
+  pdfauthor={David Heath}
+}
+
+\usepackage{bibentry}
+\usepackage{natbib}
+\usepackage{enumitem}
+\usepackage{pdfsync}
+
+\pagenumbering{gobble}
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\newcommand{\C}{C}
+
+\nobibliography*
+
+
+\begin{document}
+
+{\LARGE\bfseries David Heath}
+\medskip\medskip
+
+1101 Juniper Street NE\\
+Unit 211\\
+Atlanta, Georgia, 30309
+\medskip\\
+Phone: 770-361-6450\\
+Email: \href{mailto:daheath@illinois.edu}{daheath@illinois.edu}
+
+\section*{Area of Expertise}
+
+Cryptography; Secure Multiparty Computation
+
+
+\section*{Employment}
+
+\years{August 2022 -}{\textbf{Assistant Professor}}, University of Illinois Urbana-Champaign
+\\
+
+\years{2014-2016}{\textbf{Research Engineer I}, Georgia Tech Research Institute, Atlanta, Georgia
+% As part of GTRI's Electronic Systems Laboratory, I worked with
+% safety-critical software systems and helped to verify the Future
+% Airborne Capability Environment (FACE\texttrademark) Technical
+% Standard.
+
+
+
+\section*{Earned Degrees}
+
+\years{2016-2022}
+\textbf{PhD in Computer Science}, Georgia Institute of Technology, Atlanta, Georgia\\
+Advisor: Vladimir Kolesnikov
+\medskip\\
+\years{2010-2014}
+\textbf{BS in Computer Science}\\
+\textbf{BS in Mechanical Engineering}, Georgia Institute of Technology, Atlanta, Georgia
+
+
+\section*{Research Experience}
+
+\years{2018-2022}
+\textbf{Graduate Research Assistant}, Georgia Institute of Technology, Atlanta, Georgia\\
+Advisor: Vladimir Kolesnikov
+\begin{itemize}
+    \item I co-discovered ``stacked garbling'', a fundamental improvement to the Garbled Circuit cryptographic primitive.
+      Stacked garbling greatly accelerates the secure handling of programs with conditional branching.
+      Subsequently, I found similar improvements to other secure computation protocols.
+    \item I co-discovered ``one-hot garbling'', a fundamental improvement to the Garbled Circuit cryptographic primitive.
+      One-hot garbling greatly accelerates the secure handling of vector operations.
+    \item I improved the efficiency of ``garbled RAM'' by multiple orders of magnitude.
+      Garbled RAM allows the secure handling of random access arrays.
+    \item I developed crypto-technical improvements to interactive Zero Knowledge.
+      These improvements culminated in a system that handles proofs expressed
+      as off-the-shelf \C\ programs and runs them in the $10$KHz range.
+\end{itemize}
+\years{2016-2018}
+\textbf{Graduate Research Assistant}, Georgia Institute of Technology, Atlanta, Georgia\\
+Advisor: William Harris
+\begin{itemize}
+  \item I co-developed ``Shara'', a new solver for ``Constrained Horn Clause'' (CHC) systems.
+    CHC systems can be used to formalize programs; solvers for such systems can prove interesting properties of programs.
+  \item I co-developed ``Pequod'', a solver that automatically deduces the equivalence of programs.
+\end{itemize}
+
+\section*{Teaching}
+
+\years{2023}\textbf{Spring, CS598DH Secure Computation}
+\years{2022}\textbf{Fall, CS598DH Secure Computation}
+
+\section*{Awards, Grants, and Experience on Sponsored Projects}
+
+\years{2022}\textbf{Best Paper Award in IACR Eurocrypt 2022}
+
+\years{2020-2021}\textbf{Institute for Information Security and Privacy Cybersecurity Seed Funding}\\
+Principal Investigator: Vladimir Kolesnikov\\
+Georgia Tech's Institute for Information Security offers \$50,000 in funding to support promising research in the areas of cybersecurity.
+I drafted and collaborated on a submission with my advisor Vladimir Kolesnikov.
+The resulting submission``ZK for Anything and Anyone: Practical Zero Knowledge execution of arbitrary C programs'' was funded.
+\medskip\\
+
+
+\years{2019-2020}\textbf{IARPA HECTOR Project}\\
+IARPA sponsored HECTOR (Homomorphic Encryption Computing Techniques with
+Overhead Reduction), a multi-million dollar research project aimed at improving the usability of secure computation techniques.
+As a member of the PANTHEON team, I directly worked on the design and implementation of MPC protocols and language design.
+\medskip\\
+
+
+\years{2016-2020}\textbf{Georgia Tech President's Fellowship}\\
+I received a fellowship that Georgia Tech offers to the top 10 percent of Ph.D. applicants.
+\medskip\\
+
+
+\years{2016}\textbf{CS 7001 Research Project Award}\\
+Every Computer Science PhD student at Georgia Tech is required to
+take CS 7001, an introductory course to academic research. Each
+student is required to write and present work featuring research
+tasks conducted during the semester. I was presented an award for
+best research project as part of the Georgia Tech College of
+Computing Annual Awards and Honors ceremony.
+
+\section*{Teaching Experience}
+
+\years{Fall 2019}
+\textbf{Guest Lecturer}, Special Topics: Secure Multiparty Computation\\
+I gave two one-hour lectures in this graduate level special topics course.
+In the first, I presented our new results on Stacked Garbling, both to share interesting new results and to convey a flavor of the research process.
+In the second, I presented the EMP Toolkit, a state-of-the-art implementation of many multiparty computation, to share
+how it solves problems with real-world \CC\ code.
+\medskip\\
+
+
+\years{Spring 2019}
+\textbf{Graduate Teaching Assistant}, Special Topics: Blockchain\\
+I generated course materials, held office hours, and graded homeworks and exams for this crosslisted special topics course on blockchain technologies.
+This was the first year this course was offered at Georgia Tech, so as a TA I helped develop assignments and exams from scratch.
+\medskip\\
+
+\pagebreak
+\years{Spring 2018}
+\textbf{Graduate Teaching Assistant}, Compilers and Interpreters\\
+I generated course materials, held office hours, graded homeworks and exams, and gave one lecture for this undergraduate introduction to compiler technologies.
+
+
+\section*{Conference Publications}
+
+\begin{description}
+  \item \years{2022}
+    \bibentry{EC:HeaKolOst22}
+  \item
+    \bibentry{EC:HHKLOS22}
+  \item
+    \bibentry{YHKD22}
+
+  \item \years{2021}
+    \bibentry{CCS:HK21}
+  \item
+    \bibentry{AC:HK21}
+  \item
+    \bibentry{AC:HKP21}
+  \item
+    \bibentry{EC:HeaKol21}
+  \item
+    \bibentry{SP:HYDK21}
+  \item
+    \bibentry{PKC:HeaKolPec21}
+  \item
+    \bibentry{HKL21}
+
+  \item \years{2020}
+    \bibentry{AC:HeaKolPec20}
+  \item
+    \bibentry{CCS:HeaKol20}
+  \item
+    \bibentry{C:HeaKol20}
+  \item
+    \bibentry{EC:HeaKol20}
+
+  \item \years{2019}
+    \bibentry{zhou_heath_harris_2019}
+
+  \item \years{2018}
+    \bibentry{zhou_heath_harris_2018}
+\end{description}
+
+\section*{Ph.D. Dissertation}
+
+\begin{description}
+  \item \years{2022}
+    \bibentry{PHD:Heath22}
+\end{description}
+
+\section*{Unpublished Manuscripts}
+
+\begin{description}
+  \item
+    \bibentry{visa}
+  \item
+    \bibentry{symphony}
+\end{description}
+
+
+\section*{Invited Lectures}
+
+\sloppypar
+\begin{description}
+  \item \years{2022}
+    \bibentry{NYCrypto:Heath2022}
+  \item
+    \bibentry{TPMPC:Heath2022}
+  \item
+    \bibentry{CharlesRiver:Heath2022}
+  \item \years{2021}
+    \bibentry{Berkeley:Heath2021}
+  \item
+    \bibentry{CMU:Heath2021}
+  \item
+    \bibentry{UMD:Heath2021}
+  \item
+    \bibentry{Stanford:Heath2021_2}
+  \item
+    \bibentry{TCC:Heath2021}
+  \item
+    \bibentry{Stanford:Heath2021}
+  \item
+    \bibentry{CLS:Heath2021}
+  \item \years{2020}
+    \bibentry{Stanford:Heath2020}
+  \item
+    \bibentry{Berkeley:Heath2020}
+  \item \years{2019}
+    \bibentry{CLS:Heath2019}
+\end{description}
+
+
+\section*{Professional Contributions}
+
+\begin{description}
+  \item \years{2023}
+    Program Committee Member, Crypto 2023.
+  \item 
+    Program Committee Member, PKC 2023. 
+  \item \years{2022}
+    Program Committee Member, ASIACRYPT 2022. 
+  \item
+    Program Committee Member, CSCML 2022. 
+  \item \years{2021}
+    Program Committee Member, CCS 2021. 
+  \item
+    Program Committee Member, CSCML 2021.
+  \item \years{2020}
+    Program Committee Member, CSCML 2020.
+\end{description}
+
+
+\section*{Open Source Repositories}
+
+\begin{description}
+  \item \bibentry{one-hot-repo}
+  \item \bibentry{logstack-repo}
+  \item \bibentry{proram-repo}
+\end{description}
+
+
+
+\bibliographystyle{alpha}
+\nobibliography{custom,bib/abbrev3,bib/crypto}
+
+\end{document}
+
